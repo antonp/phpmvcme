@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>phpmvc: Anton Petersson</title>
+        <meta name="description" content="Read about Anton Petersson and his assignments in phpmvc">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.1.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div id=menu>
+            <h1>Anton Petersson</h1>
+            <h2>Innehåll</h2>
+            <ul>
+                <li><a href="#aboutme">Om mig</a></li>
+                <li><a href="#assignments">Redovisningar</a></li>
+                <li><a href="#source">Källkod</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <h2 id="aboutme">Om mig</h2>
+            <p>
+                Mitt namn är Anton Petersson och jag är 26 år gammal.
+                Jag har länge varit intresserad av mjukvara och
+                programmering. Det började när jag lärde mig skriva
+                egna små servermoddar till spelet Half Life. Sedan
+                dess har jag utbildat mig i den riktningen. 2008-2012
+                jobbade jag som utvecklare, och nu är jag tjänstledig
+                för vidare studier, främst inom matematik.
+            </p>
+            <h2 id="assignments">Redovisningar</h2>
+            <h3 id="assignment1">Uppgift 1: Me-sida med HTML5 Boilerplate</h3>
+            <p>
+                Det är alltid lite jobbigt att sätta sig in i ett nytt
+                ramverk eller verktyg. För mig tog det lite tid innan
+                jag kom igång. Jag tittade på en video om HTML5 Boilerplate.
+                Efter lite funderande bestämde jag mig för att klona
+                git-repot och se mig omkring. Dokumentationen var
+                kort och koncis, och allt jag behövde veta fanns i
+                repot.
+            </p>
+            <p>
+                En sak som jag undrade var just om man skulle
+                hantera HTML5 Boilerplate som ett bibliotek eller
+                verkligen som en mall som jag bara kopierar och börjar
+                fylla i. Jag har inget minne av att jag någonsin
+                använt ett liknande koncept förut (förutom när man
+                copy-pastat sina egna halvdana lösningar mellan
+                olika projekt). Det var ju onekligen enkelt att
+                komma igång. Kopiera allting och börja ändra.
+            </p>
+            <p>
+                Det stora problemet är ju som jag ser det att man
+                inte enkelt kan uppgradera kodbasen när de släpper
+                nya funktioner av projektet. I FAQ:en skriver de
+                att det inte är ett problem; man byter ju inte ut
+                en husgrund efter att huset är färdigbyggt.
+                Det är ett intressant sätt att se på det. Men
+                jag är inte säker på att argumentet håller så bra
+                i praktiken. Man kommer ju bli tvungen att
+                handplocka bugfixar från html-boiler.
+            </p>
+            <p>
+                Nåväl, sedan gjorde jag som jag gjort tidigare
+                när jag gjort enklare webbprojekt; skapade en
+                grov html-struktur med olika sektioner och
+                rubriker utan en tanke på css. Sedan skrev jag
+                i princip allt innehållet och på slutet fixade
+                jag en liten innehållsförteckning samt gjorde
+                några mindre tillägg i css:en för att bl.a.
+                centrera sidan i sidled och begränsa bredden.
+                Detta mest eftersom jag tycker det är jobbigt
+                att läsa långa rader.
+            </p>
+            <p>
+                En sak som jag hade problem med var mina
+                ankarlänkar. Sidan var för kort i höjdled
+                för att kunna scrolla så långt ner så att
+                rubriken hamnade högst upp. Jag har haft problemet
+                tidigare, och även sett massvis av andra sidor
+                med samma problem. Tidigare har jag inte brytt
+                mig om det men den här gången tänkte jag att
+                jag kunde passa på att åtminstone söka lite
+                efter en lösning. Det tråkiga är att jag ändå
+                inte hittade någon lösning bättre än "sätt
+                en massa padding längst ner på sidan". Om
+                någon vet ett snyggare sätt så är jag
+                intresserad. I det här fallet försvann
+                problemet i princip av sig själv när jag
+                lade till en sidfot (med lite extra padding)
+                samt lite mer innehåll.
+            </p>
+            <p>
+                Utvecklingsmiljön som jag använt mig av består
+                av:
+                <ul>
+                    <li><a href="http://www.archlinux.org" title="Linuxdistributionen Arch Linux webbsida">Arch Linux</a>
+                        (med <a href="http://www.xfce.org" title="Skrivbordmiljön Xfce:s webbsida">xfce</a>)</li>
+                    <li><a href="http://www.vim.org" title="Vim:s webbsida">vim</a></li>
+                    <li><a href="http://www.mozilla.org/en-US/firefox/fx/#desktop" title="Mozilla's webbsida om Firefox">Firefox</a></li>
+                    <li><a href="http://filezilla-project.org" title="FileZilla's webbsida">FileZilla</a></li>
+                </ul>
+            </p>
+            <h2 id="source">Källkod</h2>
+            <ol>
+                <li><a href="https://github.com/antonp/phpmvcme" title="Källkoden till uppgift 1 på github">Uppgift 1</a></li>
+            </ol>
+        </div>
+        <div id="footer">
+            <p><em>
+                Denna webbsida är skapad av Anton Petersson under hösten 2012 
+                som en del i distanskursen phpmvc .</em>
+            </p>
+        </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
+</html>
