@@ -106,6 +106,14 @@ div#footer {
     padding-bottom: 4em;
 }
 
+img#in_article {
+    float: right;
+}
+
+#assignments {
+    clear: right;
+}
+
 
 
 
